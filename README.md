@@ -32,3 +32,25 @@ This project aims to answer:
 📋 **[Take the survey](https://docs.google.com/forms/d/e/1FAIpQLSeb0pomB0vYPhyEJrLJtosmPld5pqtleHcDf82_1QVSBm0KTg/viewform)** — every response improves the analysis.
 
 ## Repo structure
+├── data/               # anonymized survey exports (CSV)
+├── notebooks/
+│   ├── 01_cleaning.ipynb
+│   ├── 02_exploration.ipynb
+│   └── 03_models.ipynb
+├── src/
+│   └── clean.py        # cleaning pipeline
+├── figures/            # exported charts
+└── README.md
+
+## Stack
+
+Python · pandas · scikit-learn · XGBoost · matplotlib
+
+## Findings
+
+Coming soon. Results, charts, and practical takeaways will be published here and in an accompanying video series.
+
+## Contact
+
+Questions, ideas, or anything else?
+🌐 [mazenfraihat.com](https://mazenfraihat.com) · 📩 mazenfraihat@yahoo.com
