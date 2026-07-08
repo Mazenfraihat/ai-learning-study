@@ -19,7 +19,7 @@ This project aims to answer:
 
 | Phase | Description | Status |
 |---|---|---|
-| 1. Collect | Anonymous global survey of students — GPA, study habits, AI usage patterns, sleep, and more | ✅ Primary collection complete — survey remains open |
+| 1. Collect | Anonymous global survey of students — GPA, study habits, AI usage patterns, sleep, and more | ✅ Primary collection complete|
 | 2. Clean | Validate responses, drop failed attention checks, normalize formats | 🟡 In progress |
 | 3. Explore | Correlations, distributions, and patterns across AI-usage groups | 🟡 In progress |
 | 4. Model | Linear regression, random forest, and XGBoost to predict GPA from behavior | ⬜ |
