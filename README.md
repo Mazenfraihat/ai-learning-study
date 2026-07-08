@@ -32,6 +32,8 @@ This project aims to answer:
 📋 **[Take the survey](https://docs.google.com/forms/d/e/1FAIpQLSeb0pomB0vYPhyEJrLJtosmPld5pqtleHcDf82_1QVSBm0KTg/viewform)** — every response improves the analysis.
 
 ## Repo structure
+
+```
 ├── data/               # anonymized survey exports (CSV)
 ├── notebooks/
 │   ├── 01_cleaning.ipynb
@@ -41,6 +43,7 @@ This project aims to answer:
 │   └── clean.py        # cleaning pipeline
 ├── figures/            # exported charts
 └── README.md
+```
 
 ## Stack
 
