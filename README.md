@@ -3,7 +3,7 @@
 An end-to-end machine learning study examining how students' AI usage patterns (ChatGPT and similar tools) relate to academic performance.
 
 **Author:** [Mazen Fraihat](https://mazenfraihat.com) · CS Senior @ Cal Poly Pomona
-**Status:** 🟡 In progress — data collection phase (56+ responses, target 200–400)
+**Status:** 🟡 In progress — cleaning & exploration phase
 
 ## Why this project
 
@@ -19,9 +19,9 @@ This project aims to answer:
 
 | Phase | Description | Status |
 |---|---|---|
-| 1. Collect | Anonymous global survey of students — GPA, study habits, AI usage patterns, sleep, and more | 🟡 Ongoing |
-| 2. Clean | Validate responses, drop failed attention checks, normalize formats | 🟡 |
-| 3. Explore | Correlations, distributions, and patterns across AI-usage groups | ⬜ |
+| 1. Collect | Anonymous global survey of students — GPA, study habits, AI usage patterns, sleep, and more | ✅ Primary collection complete — survey remains open |
+| 2. Clean | Validate responses, drop failed attention checks, normalize formats | 🟡 In progress |
+| 3. Explore | Correlations, distributions, and patterns across AI-usage groups | 🟡 In progress |
 | 4. Model | Linear regression, random forest, and XGBoost to predict GPA from behavior | ⬜ |
 | 5. Interpret | Publish findings + practical advice via video series (English & Arabic) | ⬜ |
 
@@ -29,31 +29,6 @@ This project aims to answer:
 
 ~2-minute anonymous survey covering six areas: academic performance, study behavior, AI usage (frequency, purpose, dependence, verification habits), academic context, and extra factors (sleep, distraction). Includes an attention-check question for response quality.
 
-📋 **[Take the survey](https://docs.google.com/forms/d/12fpCiolKFbjmveWj-PQNNBJycYTLcnFV27OCCfhwXJQ/edit#question=1417301206&field=2046261963)** — every response improves the analysis.
+📋 **[Take the survey](https://docs.google.com/forms/d/e/1FAIpQLSeb0pomB0vYPhyEJrLJtosmPld5pqtleHcDf82_1QVSBm0KTg/viewform)** — every response improves the analysis.
 
 ## Repo structure
-
-```
-├── data/               # anonymized survey exports (CSV)
-├── notebooks/
-│   ├── 01_cleaning.ipynb
-│   ├── 02_exploration.ipynb
-│   └── 03_models.ipynb
-├── src/
-│   └── clean.py        # cleaning pipeline
-├── figures/            # exported charts
-└── README.md
-```
-
-## Stack
-
-Python · pandas · scikit-learn · XGBoost · matplotlib
-
-## Findings
-
-Coming after data collection closes. Results, charts, and practical takeaways will be published here and in an accompanying video series.
-
-## Contact
-
-Questions, ideas, or want to help distribute the survey?
-🌐 [mazenfraihat.com](https://mazenfraihat.com) · 📩 mazenfraihat@yahoo.com
